@@ -31,7 +31,7 @@ namespace gr
             return Value.CompareTo(other.Value);
         }
 
-        int IComparable.CompareTo(object obj)
+        int IComparable. CompareTo(object obj)
         {
             return Value.CompareTo(obj);
         }
